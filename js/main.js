@@ -1,6 +1,6 @@
 /* =========================================
    AE Tax Advisors Book Library
-   books.aetaxadvisors.com -- Minimal JS
+   partnershiptaxbook.com -- Minimal JS
    ========================================= */
 
 (function () {
