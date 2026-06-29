@@ -45,6 +45,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+    @media (max-width: 768px) {
+      .about-btn-row {
+        flex-direction: column !important;
+        align-items: stretch !important;
+      }
+      .about-btn-row .btn {
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -140,7 +152,7 @@
           <a href="https://aetaxadvisors.com" style="color: var(--gold-dark);">aetaxadvisors.com</a>
         </p>
 
-        <div style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
+        <div class="about-btn-row" style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
           <a href="https://aetaxadvisors.com" class="btn btn--primary">Visit AE Tax Advisors</a>
           <a href="https://aetaxadvisors.com/contact" class="btn btn--outline">Contact Us</a>
           <a href="/" class="btn btn--outline">Browse Our Books</a>

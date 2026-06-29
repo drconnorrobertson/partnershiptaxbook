@@ -143,6 +143,14 @@
     .comparison-table tr:nth-child(even) {
       background: #f9fafb;
     }
+    @media (max-width: 768px) {
+      .example-box { padding: 1.25rem !important; }
+      .post-cta { padding: 1.25rem !important; }
+    }
+    @media (max-width: 480px) {
+      .example-box { padding: 1rem !important; }
+      .post-cta { padding: 1rem !important; }
+    }
   </style>
 </head>
 <body>
@@ -194,6 +202,7 @@
 
         <h2>The Four Structures at a Glance</h2>
 
+        <div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
         <table class="comparison-table">
           <thead>
             <tr>
@@ -242,6 +251,7 @@
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h2>General Partnership (GP): The Default Nobody Should Accept</h2>
 
