@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Track Partner Outside Basis in a Partnership: The Number That Controls Everything | AE Tax Advisors Books</title>
+  <meta name="description" content="Partner outside basis controls your loss deductions, whether distributions are taxable, and your gain when you sell. Here is how to calculate it, track it, and avoid the mistakes that cost partners thousands.">
+  <link rel="canonical" href="https://partnershiptaxbook.com/blog/posts/partner-outside-basis-tracking.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="How to Track Partner Outside Basis in a Partnership: The Number That Controls Everything">
+  <meta property="og:description" content="Outside basis controls your loss deductions, distribution taxation, and exit gain. Most partners never track it. Here is the step-by-step method and the mistakes to avoid.">
+  <meta property="og:url" content="https://partnershiptaxbook.com/blog/posts/partner-outside-basis-tracking.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AE Tax Advisors Books">
+  <meta property="article:published_time" content="2026-07-13">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to Track Partner Outside Basis in a Partnership: The Number That Controls Everything">
+  <meta name="twitter:description" content="Outside basis is the single most important number for any partner. Most never track it. Here is how.">
+
+  <!-- Schema.org BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How to Track Partner Outside Basis in a Partnership: The Number That Controls Everything",
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13",
+    "author": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "url": "https://partnershiptaxbook.com/blog/posts/partner-outside-basis-tracking.html",
+    "mainEntityOfPage": "https://partnershiptaxbook.com/blog/posts/partner-outside-basis-tracking.html",
+    "description": "Partner outside basis controls your loss deductions, whether distributions are taxable, and your gain when you sell. A step-by-step guide with examples."
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+    .post-content {
+      max-width: 760px;
+      margin: 0 auto;
+      font-family: var(--font-sans, 'Inter', sans-serif);
+      line-height: 1.8;
+      color: #333;
+    }
+    .post-content h2 {
+      color: var(--navy, #1B2A4A);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    .post-content h3 {
+      color: var(--navy, #1B2A4A);
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.2rem;
+    }
+    .post-content p {
+      margin-bottom: 1.25rem;
+      font-size: 1.05rem;
+    }
+    .post-content ul, .post-content ol {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+    }
+    .post-content li {
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+    .post-content a {
+      color: var(--gold, #C5A572);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .post-content a:hover {
+      text-decoration: underline;
+    }
+    .post-meta {
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      font-family: var(--font-sans, 'Inter', sans-serif);
+    }
+    .post-cta {
+      background: var(--off-white, #F8F7F4);
+      border-left: 4px solid var(--gold, #C5A572);
+      padding: 1.5rem 2rem;
+      margin-top: 2.5rem;
+      border-radius: 0 8px 8px 0;
+    }
+    .post-cta p {
+      margin: 0;
+      font-weight: 600;
+    }
+    .post-cta a {
+      color: var(--gold, #C5A572);
+    }
+    .example-box {
+      background: #f4f6f9;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin: 1.5rem 0;
+      border: 1px solid #e2e6ec;
+    }
+    .example-box strong {
+      color: var(--navy, #1B2A4A);
+    }
+    .basis-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .basis-table th {
+      background: var(--navy, #1B2A4A);
+      color: #fff;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    .basis-table td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid #e2e6ec;
+    }
+    .basis-table tr:nth-child(even) td {
+      background: #f8f9fc;
+    }
+    .basis-table .total-row td {
+      font-weight: 700;
+      border-top: 2px solid var(--navy, #1B2A4A);
+      background: #eef1f7;
+    }
+    @media (max-width: 768px) {
+      .example-box { padding: 1.25rem !important; }
+      .post-cta { padding: 1.25rem !important; }
+      .basis-table th, .basis-table td { padding: 0.5rem 0.65rem; font-size: 0.9rem; }
+    }
+    @media (max-width: 480px) {
+      .example-box { padding: 1rem !important; }
+      .post-cta { padding: 1rem !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <span class="header__logo-icon">AE</span>
+        AE TAX ADVISORS BOOKS
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="/" class="nav__link">Home</a>
+        <a href="/partnership-tax-strategies/" class="nav__link">Books</a>
+        <a href="/about" class="nav__link">About</a>
+        <a href="/blog/" class="nav__link nav__link--active">Blog</a>
+        <a href="https://aetaxadvisors.com/contact" class="nav__link">Contact</a>
+        <a href="https://aetaxadvisors.com" class="nav__link nav__link--cta">Visit AE Tax Advisors</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="padding: 4rem 0;">
+    <div class="container">
+      <div class="hero__content">
+        <h1>How to Track Partner Outside Basis in a Partnership: The Number That Controls Everything</h1>
+        <p class="hero__subtitle">Miss this number and you will either lose deductions you earned or pay tax you do not owe</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Post Content -->
+  <section class="section">
+    <div class="container">
+      <div class="post-meta">
+        <p>Published July 13, 2026 &bull; AE Tax Advisors</p>
+      </div>
+      <div class="post-content">
+
+        <p>If you are a partner in a partnership -- whether a real estate deal, a law firm, a family business, or any multi-member LLC taxed as a partnership -- there is one number that quietly controls almost everything about your tax situation. That number is your outside basis. It determines how much loss you can deduct, whether a cash distribution is taxable, and how much gain you report when you eventually sell your interest. It can also change every single year.</p>
+
+        <p>Most partners never track it. They receive a Schedule K-1, hand it to their accountant, and assume everything is handled. Often it is not. The result is one of two costly mistakes: deducting losses you were not legally entitled to take, or overpaying tax on a sale or distribution because your basis was understated. Either way, the IRS wins and you lose.</p>
+
+        <p>This article walks through exactly what outside basis is, what it controls, how to calculate it year by year, and the ordering rules that matter most when things get complicated.</p>
+
+        <h2>What Is Outside Basis?</h2>
+
+        <p>Outside basis is your personal tax basis in your partnership interest -- essentially what the IRS considers your "investment" in the partnership for tax purposes. It is different from your capital account (what the partnership's books say you are owed) and different from inside basis (the partnership's tax basis in its own assets).</p>
+
+        <p>Think of outside basis as your running total. It starts with what you contributed to get into the deal, and it goes up and down every year based on what happens inside the partnership -- income allocated to you, losses you absorb, cash you receive, and your share of the partnership's debt.</p>
+
+        <h2>The Four Things Outside Basis Controls</h2>
+
+        <p>Outside basis is not just a bookkeeping curiosity. It has direct, dollar-for-dollar consequences in four specific situations:</p>
+
+        <h3>1. Loss Deductions Are Capped at Your Basis</h3>
+        <p>Under Section 704(d), you cannot deduct your share of partnership losses that exceed your outside basis. If the partnership allocates $50,000 in losses to you but your outside basis is only $30,000, you can only deduct $30,000 this year. The other $20,000 is suspended and carries forward to future years when you restore your basis. Partners who do not track basis often discover this limitation during an audit -- after already claiming the full deduction.</p>
+
+        <h3>2. Cash Distributions Are Tax-Free Only Up to Your Basis</h3>
+        <p>When the partnership distributes cash to you, it reduces your outside basis dollar for dollar. Distributions within your basis are completely tax-free. But once distributions exceed your outside basis, the excess is treated as capital gain under Section 731. If your outside basis is $0 and you receive a $40,000 cash distribution, you have $40,000 in taxable capital gain. Many partners are surprised to learn they owe tax on what they thought was just a routine distribution.</p>
+
+        <h3>3. Gain on Sale Equals Proceeds Minus Outside Basis</h3>
+        <p>When you sell your partnership interest, your taxable gain is the sale price minus your outside basis at the time of sale. If your basis is $0 and you sell for $200,000, you have $200,000 in gain. If your basis is $180,000, you have $20,000 in gain. Getting this number right is worth real money.</p>
+
+        <h3>4. Your Share of Partnership Debt Increases Your Basis</h3>
+        <p>This is the feature that makes partnerships particularly powerful for real estate investors. When a partnership borrows money, each partner's share of that debt is added to their outside basis under Section 752. This means you can deduct losses funded by borrowed money, not just cash you personally contributed. It is the mechanism that makes real estate partnerships so effective at generating large paper losses -- and it is also where basis tracking gets complicated.</p>
+
+        <h2>How to Calculate Outside Basis Year by Year</h2>
+
+        <p>Your outside basis is not a static number. It adjusts every year. Here is the complete calculation:</p>
+
+        <p><strong>Starting outside basis</strong> = Initial contribution (cash, property, or services at fair market value) + Your share of partnership liabilities assumed on entry</p>
+
+        <p>Each year, you then make the following adjustments in order:</p>
+
+        <table class="basis-table">
+          <thead>
+            <tr>
+              <th>Adjustment</th>
+              <th>Direction</th>
+              <th>Code Section</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Your share of ordinary income, capital gains, and separately stated income items</td>
+              <td>Increase</td>
+              <td>705(a)(1)</td>
+            </tr>
+            <tr>
+              <td>Additional capital contributions you make</td>
+              <td>Increase</td>
+              <td>722</td>
+            </tr>
+            <tr>
+              <td>Increase in your share of partnership liabilities</td>
+              <td>Increase</td>
+              <td>752(a)</td>
+            </tr>
+            <tr>
+              <td>Cash distributions received</td>
+              <td>Decrease</td>
+              <td>733</td>
+            </tr>
+            <tr>
+              <td>Fair market value of property distributions</td>
+              <td>Decrease</td>
+              <td>733</td>
+            </tr>
+            <tr>
+              <td>Decrease in your share of partnership liabilities</td>
+              <td>Decrease</td>
+              <td>752(b)</td>
+            </tr>
+            <tr>
+              <td>Your share of ordinary losses, capital losses, and separately stated loss items</td>
+              <td>Decrease</td>
+              <td>705(a)(2)</td>
+            </tr>
+            <tr>
+              <td>Your share of nondeductible, noncapitalizable expenses</td>
+              <td>Decrease</td>
+              <td>705(a)(2)(B)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Critically: basis can never go below zero. If adjustments would push your basis negative, the excess losses are suspended under Section 704(d) and the excess distributions create gain.</p>
+
+        <div class="example-box">
+          <strong>Full Example -- Five Years of Outside Basis Tracking:</strong><br><br>
+          Two partners form ABC Real Estate Partners. Partner A contributes $100,000 cash for a 50% interest. The partnership borrows $400,000 to buy a rental property, so Partner A's initial share of liabilities is $200,000 (50%). Starting basis: $300,000.<br><br>
+          <strong>Year 1:</strong> Partnership earns $20,000 in rental income (A's share: $10,000). Takes $50,000 in depreciation (A's share: $25,000). No distributions. Partnership pays down $10,000 of debt (A's share: $5,000 reduction in liabilities).<br>
+          Basis adjustment: +$10,000 income, -$25,000 depreciation, -$5,000 debt paydown = -$20,000<br>
+          Year-end basis: $280,000<br><br>
+          <strong>Year 2:</strong> Same operations. Also distributes $30,000 cash to Partner A. Same income/depreciation. Same debt paydown.<br>
+          Basis adjustment: +$10,000 income, -$30,000 distribution, -$25,000 depreciation, -$5,000 debt paydown = -$50,000<br>
+          Year-end basis: $230,000<br><br>
+          <strong>Year 5 (Partnership Sells Property):</strong> After five years of similar operations, Partner A's outside basis has declined to $140,000. The partnership sells the property for $550,000 (A's share of proceeds: $275,000, after accounting for remaining debt). Partner A's gain: $275,000 - $140,000 = $135,000.<br><br>
+          If Partner A had never tracked basis and assumed it was still $300,000, they would have reported only $275,000 - $300,000 = -$25,000 (a loss), which would have been wrong and triggered an audit adjustment. The underreported gain: $135,000 at a 23.8% combined tax rate = $32,130 in additional tax, plus interest and penalties.
+        </div>
+
+        <h2>The Basis Ordering Rules</h2>
+
+        <p>When you have both income and distributions and losses in the same year, order matters because basis cannot go below zero. The IRS specifies the order as follows:</p>
+
+        <ol>
+          <li>First, increase basis for income items (ordinary income, capital gains, tax-exempt income)</li>
+          <li>Next, decrease basis for distributions</li>
+          <li>Then, decrease basis for nondeductible expenses (fines, penalties, disallowed meals)</li>
+          <li>Finally, decrease basis for loss items (ordinary losses, capital losses, other deductions)</li>
+        </ol>
+
+        <p>The ordering matters because if you decrease for distributions before you increase for income, you might create a gain where none actually exists. Alternatively, if losses are applied after distributions, you might find that distributions have already zeroed out your basis -- making those losses suspended.</p>
+
+        <h2>The Debt Allocation Trap</h2>
+
+        <p>Partnership debt significantly increases your outside basis, and this is genuinely valuable. But debt allocations can shift dramatically from year to year based on how the partnership agreement allocates recourse and nonrecourse liabilities. A refinancing, a change in who bears economic risk, or a shift from recourse to nonrecourse debt can cause large swings in every partner's basis -- and thus their ability to deduct losses.</p>
+
+        <p>Recourse debt (where a specific partner is personally liable) is allocated entirely to that partner. Nonrecourse debt (backed only by the property) is allocated based on each partner's share of partnership profits, using a three-tier allocation under Treasury Regulation Section 1.752-3. When your share of partnership debt decreases -- whether from debt payoff, refinancing with lower proceeds, or a shift in allocation -- your basis goes down by the same amount. If the decrease exceeds your remaining basis, you have a deemed distribution and potentially taxable gain.</p>
+
+        <div class="example-box">
+          <strong>The Refinancing Problem:</strong><br><br>
+          A partnership owns a rental property with a $500,000 mortgage. Partner B has a 40% interest and $200,000 in outside basis. The partnership refinances and pays down the mortgage to $300,000. Partner B's share of debt drops from $200,000 to $120,000 -- a decrease of $80,000.<br><br>
+          That $80,000 decrease in liabilities is treated as a cash distribution to Partner B under Section 752(b). It reduces Partner B's outside basis from $200,000 to $120,000. No cash changed hands, but the tax impact is real. If Partner B's basis had already been lower -- say, $60,000 -- the $80,000 deemed distribution would have exceeded it by $20,000, creating a $20,000 taxable gain.
+        </div>
+
+        <h2>Why Your K-1 Is Not Enough</h2>
+
+        <p>Many partners assume the Schedule K-1 they receive each year tells them everything they need to know. It does not. The K-1 reports your current-year allocations of income, loss, and deductions. It also reports distributions. But it does not calculate or maintain your cumulative outside basis -- that is your responsibility, or your accountant's.</p>
+
+        <p>Some K-1s do include a "Partner's Capital Account Analysis" section, but that reflects book capital, not tax basis. Tax basis capital accounts are a separate concept, and while the IRS now requires partnerships to report tax basis capital accounts on Schedule K-1 (effective for 2020 and later), many smaller partnerships still get this wrong or report it on a different basis.</p>
+
+        <p>The bottom line: you need a separate basis schedule, maintained year by year, starting from day one of your partnership investment. If you bought your interest rather than being a founding partner, you need to reconstruct the basis history from the purchase date forward. If you have been in a partnership for ten years and never tracked basis, start now -- and work backward with your accountant to establish your current position.</p>
+
+        <h2>Entity Selection and Basis: A Note on Real Estate</h2>
+
+        <p>The ability to include your share of partnership debt in your outside basis is one of the key reasons real estate investors use partnerships and LLCs over other entity types. Debt-financed depreciation deductions can be very large, and outside basis is what makes them deductible at the partner level. If you are investing in real estate through a partnership structure, understanding basis tracking is not optional -- it is the foundation of the entire tax strategy. For a deeper look at how real estate partnerships use depreciation and cost segregation, see <a href="https://therealestatetaxbook.com">The Real Estate Tax Book</a>.</p>
+
+        <h2>The Bottom Line</h2>
+
+        <p>Partner outside basis is not complicated once you understand the components and the annual adjustment process. What makes it hard is discipline -- it requires tracking every year, across every event: income, losses, distributions, contributions, and debt changes. Let it slip for a few years and you are guessing at a number that can have enormous tax consequences.</p>
+
+        <p>If you are a partner in any partnership and you do not have a current, documented outside basis schedule, that is the most important tax planning task on your list right now. Not next year -- before year-end, while the records are still recoverable and before a distribution or sale forces the issue at the worst possible time.</p>
+
+        <p>For a complete guide to partnership taxation including detailed basis tracking worksheets and examples, see <a href="/partnership-tax-strategies/">Partnership Tax Strategies</a> by AE Tax Advisors. For help implementing this for your specific situation, the team at <a href="https://aetaxadvisors.com">aetaxadvisors.com</a> specializes in partnership tax planning for business owners and real estate investors.</p>
+
+        <div class="post-cta">
+          <p>Ready to implement this strategy? Schedule a complimentary consultation with AE Tax Advisors at <a href="https://aetaxadvisors.com/contact">aetaxadvisors.com</a>.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>AE Tax Advisors</h3>
+          <p>935 Lake Elmo Dr., Suite B</p>
+          <p>Billings, MT 59105</p>
+          <p><a href="https://aetaxadvisors.com">aetaxadvisors.com</a></p>
+          <p><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+        </div>
+        <div>
+          <h4>Books</h4>
+          <ul class="footer__links">
+            <li><a href="/partnership-tax-strategies/">Partnership Tax Strategies</a></li>
+            <li><a href="https://ccorptaxbook.com">C Corp Tax Strategy</a></li>
+            <li><a href="https://therealestatetaxbook.com">The Real Estate Tax Book</a></li>
+            <li><a href="https://thescorptaxbook.com">The S Corp Tax Book</a></li>
+            <li><a href="/about">About the Publisher</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="https://aetaxadvisors.com/cost-segregation-study/">Cost Segregation Services</a></li>
+            <li><a href="https://aetaxadvisors.com/short-term-rental-tax-strategy/">STR Tax Strategy</a></li>
+            <li><a href="https://aetaxadvisors.com/real-estate-tax-planning/">Real Estate Tax Planning</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul class="footer__links">
+            <li><a href="https://aetaxadvisors.com">Visit AE Tax Advisors</a></li>
+            <li><a href="https://aetaxadvisors.com/contact">Contact Us</a></li>
+            <li><a href="mailto:team@aetaxadvisors.com">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 AE Tax Advisors. All rights reserved.</p>
+        <p><a href="https://aetaxadvisors.com">aetaxadvisors.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
