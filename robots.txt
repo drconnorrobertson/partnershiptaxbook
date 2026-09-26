@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://partnershiptaxbook.com/sitemap.xml
-
+Sitemap: https://www.partnershiptaxbook.com/sitemap.xml
