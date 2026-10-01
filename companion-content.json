@@ -1,0 +1,116 @@
+{
+  "book": "Partnership Tax Strategies",
+  "domain": "www.partnershiptaxbook.com",
+  "case": "multi-entity",
+  "intro": "Keep the partnership agreement, capital accounts, tax basis and liability records aligned. The same payment can affect cash, economic capital and tax basis differently, so every allocation and distribution needs a documented explanation.",
+  "articles": [
+    [
+      "outside-basis-capital-account-example",
+      "Partnership Outside Basis and Capital Accounts: A Simple Example",
+      "A partner's tax basis is not interchangeable with the capital account on a K-1. Follow a contribution and debt example to see why the distinction matters.",
+      "Outside basis measures the partner's tax investment in the partnership interest. Inside basis concerns partnership assets. Capital accounts measure another aspect of the economic or tax reporting record depending on the account used. These schedules are related but need not equal one another. The preparer needs contribution, income, distribution and liability information to explain the differences.",
+      "Reconcile contributions and liabilities separately",
+      "A partner's share of partnership liabilities can affect outside basis, with allocation depending on the liability type and applicable rules. That does not make every liability amount at-risk. A K-1 capital number should not be copied into the loss limitation calculation without reconciliation. If the partner bought an interest from another partner, purchase basis and any applicable partnership adjustments add further differences.",
+      "Assume a partner contributes $40,000 cash and has a properly determined $30,000 share of partnership liabilities. Before other adjustments, outside basis can be $70,000 while the contribution-based capital record starts at $40,000. If a loss is allocated, the partner still needs the applicable basis, at-risk and passive activity reviews. This simplified example assumes the liability allocation is valid and does not conclude that all $70,000 is deductible loss capacity.",
+      [
+        "Retain contribution and acquisition records.",
+        "Reconcile annual income, loss and distributions.",
+        "Explain liability shares by category.",
+        "Keep outside basis separate from capital and at-risk amounts."
+      ],
+      "Can I use K-1 capital as my deductible loss limit?",
+      "Not automatically. Outside basis may differ because of debt and other adjustments, and additional loss limitations can apply.",
+      "publications/p541"
+    ],
+    [
+      "cash-distribution-basis-before-payment",
+      "Partnership Cash Distributions: Check Basis Before Paying Partners",
+      "Cash distributions change the partner's basis and can create gain. Use a simplified example to connect payment approvals with current basis records.",
+      "The partnership bank balance does not establish the amount each partner can receive without a tax consequence. Before payment, review the partner's outside basis, current-year activity and other distributions. The operating agreement determines economic rights, but tax treatment requires a separate calculation. A distribution can be permitted under the agreement and still have a taxable result.",
+      "Include liability changes in the distribution review",
+      "Cash distributions generally reduce outside basis, and cash exceeding adjusted outside basis can create gain. A decrease in a partner's share of liabilities can be treated as a deemed cash distribution for this analysis. Property distributions introduce additional rules and should not be evaluated using only the cash example. Coordinate the distribution date with current-year adjustments rather than using an outdated year-end schedule.",
+      "A partner has $18,000 of adjusted outside basis immediately before a $25,000 cash distribution, assuming no other relevant adjustments. The simplified excess is $7,000, which can result in gain under the distribution rules. If a debt refinance also reduces the partner's liability share, the deemed distribution can change the result. The partnership should calculate that effect before approving the transfer, not after the partner spends the cash.",
+      [
+        "Update outside basis before distribution approval.",
+        "Include current-year activity and earlier payments.",
+        "Review decreases in liability shares.",
+        "Separate cash and property distribution analyses."
+      ],
+      "Does distributing borrowed money make the payment tax-free?",
+      "Borrowing does not decide the result by itself. Proper liability allocations, basis and other applicable rules must be evaluated.",
+      "publications/p541"
+    ],
+    [
+      "guaranteed-payments-partner-cash-tax",
+      "Guaranteed Payments and Partnership Distributions: Different Tax Jobs",
+      "A partner's recurring payment may be a guaranteed payment, a distribution or another transaction. Learn why the agreement and payment purpose matter.",
+      "Partners may contribute services, capital or both. A fixed monthly payment for services can have a different purpose from sharing the residual profit. The agreement should explain what is promised, how it is calculated and whether the amount depends on partnership income. Bookkeeping should reflect that arrangement consistently through the partnership return and partner K-1.",
+      "Distinguish service or capital payments from profit withdrawals",
+      "Guaranteed payments generally involve amounts determined without regard to partnership income, with specific tax treatment. A distribution ordinarily changes the partner's investment rather than functioning as a deductible payment for services. Self-employment treatment requires its own review based on the payment and partner facts. Partners are generally not employees of the partnership, so an owner payroll setup should not be copied from an S corporation without analysis.",
+      "An agreement provides an operating partner $6,000 each month for services regardless of profit, plus a share of remaining annual income. The preparer reviews the $72,000 service arrangement separately from profit allocations and cash draws. A bank transfer described only as owner pay does not show which category applies. Align the agreement, general ledger and K-1 reporting so the same amount is not deducted and treated as an unrelated capital withdrawal.",
+      [
+        "Identify whether the payment depends on income.",
+        "Document services or capital covered by the agreement.",
+        "Reconcile payments with allocations and distributions.",
+        "Review partner reporting and self-employment treatment."
+      ],
+      "Should an active partner automatically receive a W-2?",
+      "Partners generally are not employees of the partnership. Review the actual ownership and payment relationship before using employee payroll treatment.",
+      "businesses/partnerships"
+    ],
+    [
+      "partnership-liabilities-at-risk-review",
+      "Partnership Liabilities: Basis and At-Risk Are Separate Tests",
+      "A liability can affect outside basis without producing the same amount at risk. This guide explains the distinction before a partnership loss is claimed.",
+      "Debt belongs in the partnership tax file with more detail than the loan balance. Record the borrower, lender, guarantees, collateral, repayment responsibilities and whether the lender is related to a partner. Classification and allocation can affect each partner differently. A change in a guarantee or refinancing can therefore matter even when the partnership's total debt remains similar.",
+      "Do not carry the basis number directly into the at-risk schedule",
+      "Recourse and nonrecourse liabilities have allocation rules, while the at-risk rules ask a different set of questions. Some qualified nonrecourse real estate financing can receive special treatment if the requirements are met. Other nonrecourse debt may increase outside basis without creating equivalent at-risk capacity. Review the actual financing and activity before estimating a deductible loss. Passive activity and excess business loss restrictions can apply after these tests.",
+      "Assume a partner has $20,000 from cash investment and a valid $80,000 share of nonrecourse liabilities for outside basis. The $100,000 outside basis figure does not automatically mean $100,000 at risk. If the debt does not qualify for applicable special treatment, the at-risk result may be much smaller. A $60,000 allocated loss then needs sequential limitation schedules, with each suspended amount identified under the rule that stopped it.",
+      [
+        "Collect loan, guarantee and collateral documents.",
+        "Classify and allocate each liability correctly.",
+        "Calculate at-risk amounts independently.",
+        "Recheck changes in debt and guarantees annually."
+      ],
+      "Does all nonrecourse debt fail the at-risk test?",
+      "There are special rules, including for qualifying real estate financing. Review eligibility rather than assuming all nonrecourse amounts have the same treatment.",
+      "publications/p925"
+    ],
+    [
+      "buying-partnership-interest-basis-review",
+      "Buying a Partnership Interest: Buyer Basis and Section 754 Questions",
+      "A partnership interest purchase changes the buyer's tax investment, but partnership asset basis may need a separate adjustment analysis. Build the acquisition file early.",
+      "Buying assets from a partnership and buying an interest from a partner are different transactions. An interest buyer generally has a cost-based outside basis calculation that can differ from the share of partnership asset basis. The purchase agreement should identify what is transferred, liabilities, consideration and the effective date. A price allocation or capital account entry alone does not answer every basis question.",
+      "Review whether a partner-specific adjustment applies",
+      "A Section 754 election and related adjustment provisions can affect the basis review when interests transfer or certain distributions occur. The analysis is technical and may involve mandatory adjustment rules in specified circumstances. Ask whether an election exists, whether one should be made and who will maintain any partner-specific adjustment schedule. Do not promise an asset step-up simply because the buyer paid more than the seller's capital account.",
+      "A buyer pays $300,000 for an interest whose associated share of partnership asset basis is much lower. The preparer reconciles the buyer's outside basis, liability share and the applicable inside-basis adjustment rules. If an adjustment is available or required, its allocation among assets matters for future deductions and gain. The buyer needs the partnership's asset schedules and election history before estimating a depreciation benefit.",
+      [
+        "Obtain the purchase agreement and payment evidence.",
+        "Reconcile buyer basis and liability shares.",
+        "Review election history and adjustment requirements.",
+        "Assign responsibility for ongoing adjustment schedules."
+      ],
+      "Does paying above capital guarantee extra depreciation?",
+      "No. Outside basis and asset basis differ, and the availability, calculation and allocation of an adjustment require separate review.",
+      "publications/p541"
+    ],
+    [
+      "partnership-loss-excess-business-loss-2026",
+      "Partnership Losses and Section 461(l): A 2026 Partner Example",
+      "A partnership K-1 loss passes through several partner-level tests. See how the excess business loss limit applies after earlier restrictions and other business income.",
+      "The partnership computes and reports its items, but the partner determines personal deduction limits. Basis, at-risk and passive activity restrictions can suspend losses before Section 461(l) is reached. Partners with interests in several businesses then aggregate the eligible remaining business income and deductions for the excess business loss calculation. Each partnership does not provide a separate threshold.",
+      "Aggregate the partner's businesses after earlier restrictions",
+      "The 2026 excess business loss threshold is $256,000 for nonjoint filers and $512,000 for joint filers. Employee wages are excluded from business income for this calculation. The excess is disallowed for the current year and treated as an NOL carryforward, with future use governed by the NOL rules. Maintain separate records for basis, at-risk and passive suspensions because those carryforwards have different mechanisms.",
+      "Assume a joint filer has a $900,000 eligible business loss from one partnership after earlier limits and $200,000 of eligible income from another business. Net business loss is $700,000. Subtracting the $512,000 threshold leaves a simplified $188,000 excess. Salary does not increase that threshold or the eligible business income. The example excludes other adjustments and does not calculate final taxable income or next-year NOL usage.",
+      [
+        "Complete earlier partner-level limitation schedules.",
+        "Gather eligible items from all businesses.",
+        "Use the correct year and filing status threshold.",
+        "Record each carryforward by its governing rule."
+      ],
+      "Can another business's income change the result?",
+      "Eligible business income can reduce the net business loss in the aggregate computation. Employee wage income is excluded from that calculation.",
+      "pub/irs-drop/rp-25-32.pdf"
+    ]
+  ]
+}

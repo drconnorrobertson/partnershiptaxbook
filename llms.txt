@@ -1,0 +1,20 @@
+# Partnership Tax Strategies
+
+Published by AE Tax Advisors. Original companion education with hypothetical examples. Not book excerpts, independent reviews, audited outcomes or personalized tax advice.
+
+## Companion index
+
+- [Partnership Outside Basis and Capital Accounts: A Simple Example](https://www.partnershiptaxbook.com/reading-guides/outside-basis-capital-account-example): A partner's tax basis is not interchangeable with the capital account on a K-1. Follow a contribution and debt example to see why the distinction matters.
+- [Partnership Cash Distributions: Check Basis Before Paying Partners](https://www.partnershiptaxbook.com/reading-guides/cash-distribution-basis-before-payment): Cash distributions change the partner's basis and can create gain. Use a simplified example to connect payment approvals with current basis records.
+- [Guaranteed Payments and Partnership Distributions: Different Tax Jobs](https://www.partnershiptaxbook.com/reading-guides/guaranteed-payments-partner-cash-tax): A partner's recurring payment may be a guaranteed payment, a distribution or another transaction. Learn why the agreement and payment purpose matter.
+- [Partnership Liabilities: Basis and At-Risk Are Separate Tests](https://www.partnershiptaxbook.com/reading-guides/partnership-liabilities-at-risk-review): A liability can affect outside basis without producing the same amount at risk. This guide explains the distinction before a partnership loss is claimed.
+- [Buying a Partnership Interest: Buyer Basis and Section 754 Questions](https://www.partnershiptaxbook.com/reading-guides/buying-partnership-interest-basis-review): A partnership interest purchase changes the buyer's tax investment, but partnership asset basis may need a separate adjustment analysis. Build the acquisition file early.
+- [Partnership Losses and Section 461(l): A 2026 Partner Example](https://www.partnershiptaxbook.com/reading-guides/partnership-loss-excess-business-loss-2026): A partnership K-1 loss passes through several partner-level tests. See how the excess business loss limit applies after earlier restrictions and other business income.
+- [Partnership Tax Strategies: AE Tax Advisors Companion Reading Guides](https://www.partnershiptaxbook.com/reading-guides): Read six focused partnership tax strategies companion guides with worked examples, records checklists, IRS references and links to published AE Tax Advisors case studies.
+
+## Related resources
+
+- [Existing learning library](https://www.partnershiptaxbook.com/blog)
+- [AE Tax Advisors](https://www.aetaxadvisors.com/)
+- [Published AE case studies](https://aetaxadvisorsreviews.com/case-studies/)
+- [Case-study methodology](https://aetaxadvisorsreviews.com/case-studies/methodology/)
