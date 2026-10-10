@@ -1,0 +1,48 @@
+{
+  "repo": "partnershiptaxbook",
+  "domain": "www.partnershiptaxbook.com",
+  "label": "Partnership Tax Book",
+  "eyebrow": "The AE Tax Advisors reading room",
+  "headline": "A clearer view of partnership economics and tax reporting.",
+  "intro": "Understand why capital accounts, outside basis, liabilities, allocations, and distributions answer different questions. Prepare partnership records for a coordinated owner and entity review.",
+  "service": "/advanced-income-entity-planning/",
+  "role": "Partnership book companion",
+  "topics": [
+    [
+      "Learning library",
+      "/blog/",
+      "Explore partnership planning and record preparation."
+    ],
+    [
+      "Entity advisory",
+      "https://www.aetaxadvisors.com/advanced-income-entity-planning/",
+      "Coordinate entity structure and owner-level consequences."
+    ],
+    [
+      "Real estate advisory",
+      "https://www.aetaxadvisors.com/real-estate-tax-planning/",
+      "Review partnership-owned property alongside investor goals."
+    ]
+  ],
+  "prepare": [
+    "Partnership agreements and amendments",
+    "Returns, K-1s, and outside-basis schedules",
+    "Liability allocations and contribution history",
+    "Distribution, refinancing, and ownership-change records"
+  ],
+  "steps": [
+    [
+      "Read the agreement",
+      "Understand the actual economic arrangement."
+    ],
+    [
+      "Trace owner schedules",
+      "Reconcile contributions, liabilities, and distributions."
+    ],
+    [
+      "Coordinate the change",
+      "Evaluate transactions before implementing them."
+    ]
+  ],
+  "generated": false
+}

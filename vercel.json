@@ -60,5 +60,6 @@
     }
   ],
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "buildCommand": "node brand-build.cjs"
 }
