@@ -44,5 +44,6 @@
       "Evaluate transactions before implementing them."
     ]
   ],
-  "generated": false
+  "generated": false,
+  "outputDirectory": "dist"
 }
