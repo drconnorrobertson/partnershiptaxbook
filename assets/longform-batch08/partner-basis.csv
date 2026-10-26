@@ -1,0 +1,4 @@
+fictional_stage,tax_basis_capital,assumed_liability_share,outside_basis,other_differences
+Initial assumed position,50000,20000,70000,none assumed
+After income8000 and cash distribution10000,48000,20000,68000,none assumed
+After only liability share declines5000,48000,15000,63000,none assumed
