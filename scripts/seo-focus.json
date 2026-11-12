@@ -1,0 +1,22 @@
+{
+  "title": "Partnership Tax Book: Basis & Distributions | AE Tax",
+  "description": "Explore the AE partnership tax book and companion reading guides on outside basis, capital accounts, partner payments and distributions.",
+  "heading": "Work through the partnership book with your records",
+  "intro": "Use companion examples to distinguish the concepts and record questions for the partnership preparer.",
+  "links": [
+    {
+      "href": "/reading-guides/outside-basis-capital-account-example",
+      "label": "Outside basis and capital accounts"
+    },
+    {
+      "href": "/reading-guides/cash-distribution-basis-before-payment",
+      "label": "Review basis before a distribution"
+    },
+    {
+      "href": "/reading-guides/guaranteed-payments-partner-cash-tax",
+      "label": "Partner payments and cash planning"
+    }
+  ],
+  "buildCommand": "node scripts/production-build.cjs && node scripts/practical-homepage.cjs dist && node scripts/brand-check.mjs dist",
+  "outputDirectory": "dist"
+}
