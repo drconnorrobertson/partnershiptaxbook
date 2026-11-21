@@ -1,5 +1,6 @@
 // Match the existing Vercel trailingSlash:false routes without changing content.
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');
+const {normalizeArticleIdentities}=require('./article-identities.cjs');
 const root=process.argv[2]||'dist';
 const config=require('../vercel.json');
 assert.equal(config.trailingSlash,false,'Normalizer is only valid for slashless routes');
@@ -14,6 +15,14 @@ for(const file of files(root).filter(f=>/\.(html|xml)$/.test(f))){
   const absolute=origin+'/'+route;
   s=s.replace(new RegExp(absolute.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'/(?=[\"\'#<])','g'),absolute);
   s=s.replace(new RegExp('(href=["\'])/'+route+'/(?=["\'#])','g'),'$1/'+route);
+ }
+ if(file.endsWith('.html')){
+  const tag=s.match(/<link\b[^>]*rel=["']canonical["'][^>]*>/i);
+  const href=tag&&tag[0].match(/href=["']([^"']+)["']/i);
+  if(href&&href[1].startsWith(origin+'/')) s=s.replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,(block,content)=>{
+   const data=JSON.parse(content);
+   return normalizeArticleIdentities(data,href[1])?block.replace(content,JSON.stringify(data).replace(/</g,'\\u003c')):block;
+  });
  }
  if(s!==original){fs.writeFileSync(file,s);count++;}
 }
