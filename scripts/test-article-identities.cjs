@@ -1,0 +1,12 @@
+const assert = require('node:assert/strict');
+const {normalizeArticleIdentities} = require('./article-identities.cjs');
+const canonical = 'https://www.partnershiptaxbook.com/blog/example';
+const article = {'@type':'BlogPosting',url:'https://partnershiptaxbook.com/blog/example.html',mainEntityOfPage:{'@type':'WebPage','@id':'https://www.partnershiptaxbook.com/blog/example/'},datePublished:'2026-06-29'};
+assert.equal(normalizeArticleIdentities(article,canonical),2);
+assert.equal(article.url,canonical);assert.equal(article.mainEntityOfPage['@id'],canonical);assert.equal(article.datePublished,'2026-06-29');
+assert.equal(normalizeArticleIdentities(article,canonical),0,'Second pass is stable');
+const other={'@type':'Article',url:'https://example.org/blog/example.html',mainEntityOfPage:'https://www.partnershiptaxbook.com/blog/other'};
+assert.equal(normalizeArticleIdentities(other,canonical),0,'External and different-page references remain');
+const graph=[{'@graph':[{'@type':['Article'],url:'/blog/example/index.html',mainEntityOfPage:canonical+'/#webpage'}]},{'@type':'Organization',url:'https://partnershiptaxbook.com/blog/example.html'}];
+assert.equal(normalizeArticleIdentities(graph,canonical),2);assert.equal(graph[0]['@graph'][0].url,canonical);assert.equal(graph[0]['@graph'][0].mainEntityOfPage,canonical+'#webpage');assert.ok(graph[1].url.endsWith('.html'),'Other schema types remain');
+console.log('Article identity regression passed: local aliases, object references, graphs, fragments, unrelated URLs and idempotence.');
