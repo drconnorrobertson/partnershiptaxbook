@@ -1,0 +1,4 @@
+fictional_case,direct_required_partnership_k1s,additional_s_corporation_shareholder_k1s,combined_count,count_at_most_100,roster_assumption,screen_result,final_election_conclusion,tax_savings
+A,90,8,98,yes,89 individuals and one S corporation with8requiredshareholderK1s,Countpasses;allotherrequirementsunresolved,,
+B,90,12,102,no,89 individuals and one S corporation with12requiredshareholderK1s,Countfails,,
+C,90,0,90,yes,NoScorppartners;onepartnerisdisregardedentity,Countpasses;rosterineligible,,
