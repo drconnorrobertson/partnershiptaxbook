@@ -60,7 +60,6 @@
     }
   ],
   "cleanUrls": true,
-  "trailingSlash": false,
   "buildCommand": "node scripts/seo-production.cjs",
   "outputDirectory": "dist",
   "redirects": [
@@ -962,6 +961,11 @@
     {
       "source": "/blog/guaranteed-payments-questions",
       "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.+)/",
+      "destination": "/:path",
       "permanent": true
     }
   ]
