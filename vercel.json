@@ -7,6 +7,170 @@
     {
       "source": "/partnership-tax-strategies",
       "destination": "/partnership-tax-strategies/index.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/capital-accounts-field-guide",
+      "destination": "/blog/capital-accounts-field-guide/index.html"
+    },
+    {
+      "source": "/blog/distributions-field-guide",
+      "destination": "/blog/distributions-field-guide/index.html"
+    },
+    {
+      "source": "/blog/guaranteed-payments-field-guide",
+      "destination": "/blog/guaranteed-payments-field-guide/index.html"
+    },
+    {
+      "source": "/blog/interest-transfers-field-guide",
+      "destination": "/blog/interest-transfers-field-guide/index.html"
+    },
+    {
+      "source": "/blog/outside-basis-field-guide",
+      "destination": "/blog/outside-basis-field-guide/index.html"
+    },
+    {
+      "source": "/blog/partnership-exit-field-guide",
+      "destination": "/blog/partnership-exit-field-guide/index.html"
+    },
+    {
+      "source": "/blog/partnership-formation-field-guide",
+      "destination": "/blog/partnership-formation-field-guide/index.html"
+    },
+    {
+      "source": "/blog/partnership-liabilities-field-guide",
+      "destination": "/blog/partnership-liabilities-field-guide/index.html"
+    },
+    {
+      "source": "/blog/posts/bba-partnership-audit-rules-2026",
+      "destination": "/blog/posts/bba-partnership-audit-rules-2026.html"
+    },
+    {
+      "source": "/blog/posts/guaranteed-payments-to-partners-tax-treatment",
+      "destination": "/blog/posts/guaranteed-payments-to-partners-tax-treatment.html"
+    },
+    {
+      "source": "/blog/posts/obbba-qbi-deduction-permanent-partnerships-2026",
+      "destination": "/blog/posts/obbba-qbi-deduction-permanent-partnerships-2026.html"
+    },
+    {
+      "source": "/blog/posts/partner-outside-basis-tracking",
+      "destination": "/blog/posts/partner-outside-basis-tracking.html"
+    },
+    {
+      "source": "/blog/posts/partnership-vs-llc-tax-comparison",
+      "destination": "/blog/posts/partnership-vs-llc-tax-comparison.html"
+    },
+    {
+      "source": "/blog/posts/section-754-election-guide",
+      "destination": "/blog/posts/section-754-election-guide.html"
+    },
+    {
+      "source": "/blog/posts/special-allocations-partnerships",
+      "destination": "/blog/posts/special-allocations-partnerships.html"
+    },
+    {
+      "source": "/blog/posts/what-is-schedule-k1",
+      "destination": "/blog/posts/what-is-schedule-k1.html"
+    },
+    {
+      "source": "/blog/section-754-field-guide",
+      "destination": "/blog/section-754-field-guide/index.html"
+    },
+    {
+      "source": "/blog/special-allocations-field-guide",
+      "destination": "/blog/special-allocations-field-guide/index.html"
+    },
+    {
+      "source": "/editorial-policy",
+      "destination": "/editorial-policy/index.html"
+    },
+    {
+      "source": "/publisher",
+      "destination": "/publisher/index.html"
+    },
+    {
+      "source": "/reading-guides",
+      "destination": "/reading-guides/index.html"
+    },
+    {
+      "source": "/reading-guides/buying-partnership-interest-basis-review",
+      "destination": "/reading-guides/buying-partnership-interest-basis-review/index.html"
+    },
+    {
+      "source": "/reading-guides/cash-distribution-basis-before-payment",
+      "destination": "/reading-guides/cash-distribution-basis-before-payment/index.html"
+    },
+    {
+      "source": "/reading-guides/guaranteed-payments-partner-cash-tax",
+      "destination": "/reading-guides/guaranteed-payments-partner-cash-tax/index.html"
+    },
+    {
+      "source": "/reading-guides/outside-basis-capital-account-example",
+      "destination": "/reading-guides/outside-basis-capital-account-example/index.html"
+    },
+    {
+      "source": "/reading-guides/partnership-liabilities-at-risk-review",
+      "destination": "/reading-guides/partnership-liabilities-at-risk-review/index.html"
+    },
+    {
+      "source": "/reading-guides/partnership-loss-excess-business-loss-2026",
+      "destination": "/reading-guides/partnership-loss-excess-business-loss-2026/index.html"
+    },
+    {
+      "source": "/resources",
+      "destination": "/resources/index.html"
+    },
+    {
+      "source": "/resources/partner-capital-outside-basis-reconciliation",
+      "destination": "/resources/partner-capital-outside-basis-reconciliation/index.html"
+    },
+    {
+      "source": "/resources/partnership-refinance-distribution-review",
+      "destination": "/resources/partnership-refinance-distribution-review/index.html"
+    },
+    {
+      "source": "/site-map",
+      "destination": "/site-map/index.html"
+    },
+    {
+      "source": "/consultation-preparation",
+      "destination": "/consultation-preparation/index.html"
+    },
+    {
+      "source": "/library",
+      "destination": "/library/index.html"
+    },
+    {
+      "source": "/ecosystem",
+      "destination": "/ecosystem/index.html"
+    },
+    {
+      "source": "/editorial-standards",
+      "destination": "/editorial-standards/index.html"
+    },
+    {
+      "source": "/resources/hiring-bba-partnership-aar-tax-advisor",
+      "destination": "/resources/hiring-bba-partnership-aar-tax-advisor/index.html"
+    },
+    {
+      "source": "/resources/section-754-election-implementation-proposal",
+      "destination": "/resources/section-754-election-implementation-proposal/index.html"
+    },
+    {
+      "source": "/resources/selling-rental-llc-interest-versus-building-tax-review",
+      "destination": "/resources/selling-rental-llc-interest-versus-building-tax-review/index.html"
+    },
+    {
+      "source": "/resources/adding-cash-investor-property-partnership-tax-review",
+      "destination": "/resources/adding-cash-investor-property-partnership-tax-review/index.html"
     }
   ],
   "headers": [
@@ -59,7 +223,7 @@
       ]
     }
   ],
-  "cleanUrls": true,
+  "cleanUrls": false,
   "buildCommand": "node scripts/seo-production.cjs",
   "outputDirectory": "dist",
   "redirects": [
@@ -961,6 +1125,671 @@
     {
       "source": "/blog/guaranteed-payments-questions",
       "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-implementation/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-advanced/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-faq/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-red-flags/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-mistakes/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-faq/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-scorecard/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-scorecard/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-mistakes/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-implementation/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-faq/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-examples/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-checklist/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-scorecard/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-examples/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-implementation/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-examples/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-examples/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-checklist/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-faq/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-questions/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-advanced/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-red-flags/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-mistakes/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-questions/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-red-flags/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-implementation/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-implementation/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-questions/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-red-flags/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-advanced/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-faq/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-scorecard/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-questions/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-mistakes/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-checklist/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-implementation/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-examples/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-questions/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-examples/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-implementation/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-scorecard/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-examples/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-advanced/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-advanced/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-red-flags/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-implementation/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-checklist/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-faq/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-mistakes/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-mistakes/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-questions/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-examples/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-advanced/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-implementation/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-checklist/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-red-flags/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-scorecard/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-advanced/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-red-flags/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-advanced/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-mistakes/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-examples/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-checklist/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-mistakes/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-checklist/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-questions/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-questions/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-scorecard/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-examples/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-faq/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-scorecard/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-scorecard/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-checklist/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-advanced/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-checklist/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-mistakes/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-mistakes/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-advanced/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-checklist/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-scorecard/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-faq/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-faq/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-red-flags/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-red-flags/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-red-flags/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-faq/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-questions/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-implementation/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-questions/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/capital-accounts-field-guide/index.html",
+      "destination": "/blog/capital-accounts-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/distributions-field-guide/index.html",
+      "destination": "/blog/distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guaranteed-payments-field-guide/index.html",
+      "destination": "/blog/guaranteed-payments-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interest-transfers-field-guide/index.html",
+      "destination": "/blog/interest-transfers-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/outside-basis-field-guide/index.html",
+      "destination": "/blog/outside-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-exit-field-guide/index.html",
+      "destination": "/blog/partnership-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-formation-field-guide/index.html",
+      "destination": "/blog/partnership-formation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/partnership-liabilities-field-guide/index.html",
+      "destination": "/blog/partnership-liabilities-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/bba-partnership-audit-rules-2026.html",
+      "destination": "/blog/posts/bba-partnership-audit-rules-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/guaranteed-payments-to-partners-tax-treatment.html",
+      "destination": "/blog/posts/guaranteed-payments-to-partners-tax-treatment",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/obbba-qbi-deduction-permanent-partnerships-2026.html",
+      "destination": "/blog/posts/obbba-qbi-deduction-permanent-partnerships-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/partner-outside-basis-tracking.html",
+      "destination": "/blog/posts/partner-outside-basis-tracking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/partnership-vs-llc-tax-comparison.html",
+      "destination": "/blog/posts/partnership-vs-llc-tax-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/section-754-election-guide.html",
+      "destination": "/blog/posts/section-754-election-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/special-allocations-partnerships.html",
+      "destination": "/blog/posts/special-allocations-partnerships",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/what-is-schedule-k1.html",
+      "destination": "/blog/posts/what-is-schedule-k1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/section-754-field-guide/index.html",
+      "destination": "/blog/section-754-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/special-allocations-field-guide/index.html",
+      "destination": "/blog/special-allocations-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/editorial-policy/index.html",
+      "destination": "/editorial-policy",
+      "permanent": true
+    },
+    {
+      "source": "/partnership-tax-strategies/index.html",
+      "destination": "/partnership-tax-strategies",
+      "permanent": true
+    },
+    {
+      "source": "/publisher/index.html",
+      "destination": "/publisher",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/index.html",
+      "destination": "/reading-guides",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/buying-partnership-interest-basis-review/index.html",
+      "destination": "/reading-guides/buying-partnership-interest-basis-review",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/cash-distribution-basis-before-payment/index.html",
+      "destination": "/reading-guides/cash-distribution-basis-before-payment",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/guaranteed-payments-partner-cash-tax/index.html",
+      "destination": "/reading-guides/guaranteed-payments-partner-cash-tax",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/outside-basis-capital-account-example/index.html",
+      "destination": "/reading-guides/outside-basis-capital-account-example",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partnership-liabilities-at-risk-review/index.html",
+      "destination": "/reading-guides/partnership-liabilities-at-risk-review",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partnership-loss-excess-business-loss-2026/index.html",
+      "destination": "/reading-guides/partnership-loss-excess-business-loss-2026",
+      "permanent": true
+    },
+    {
+      "source": "/resources/index.html",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/partner-capital-outside-basis-reconciliation/index.html",
+      "destination": "/resources/partner-capital-outside-basis-reconciliation",
+      "permanent": true
+    },
+    {
+      "source": "/resources/partnership-refinance-distribution-review/index.html",
+      "destination": "/resources/partnership-refinance-distribution-review",
+      "permanent": true
+    },
+    {
+      "source": "/site-map/index.html",
+      "destination": "/site-map",
+      "permanent": true
+    },
+    {
+      "source": "/consultation-preparation/index.html",
+      "destination": "/consultation-preparation",
+      "permanent": true
+    },
+    {
+      "source": "/library/index.html",
+      "destination": "/library",
+      "permanent": true
+    },
+    {
+      "source": "/ecosystem/index.html",
+      "destination": "/ecosystem",
+      "permanent": true
+    },
+    {
+      "source": "/editorial-standards/index.html",
+      "destination": "/editorial-standards",
+      "permanent": true
+    },
+    {
+      "source": "/resources/hiring-bba-partnership-aar-tax-advisor/index.html",
+      "destination": "/resources/hiring-bba-partnership-aar-tax-advisor",
+      "permanent": true
+    },
+    {
+      "source": "/resources/section-754-election-implementation-proposal/index.html",
+      "destination": "/resources/section-754-election-implementation-proposal",
+      "permanent": true
+    },
+    {
+      "source": "/resources/selling-rental-llc-interest-versus-building-tax-review/index.html",
+      "destination": "/resources/selling-rental-llc-interest-versus-building-tax-review",
+      "permanent": true
+    },
+    {
+      "source": "/resources/adding-cash-investor-property-partnership-tax-review/index.html",
+      "destination": "/resources/adding-cash-investor-property-partnership-tax-review",
       "permanent": true
     },
     {
