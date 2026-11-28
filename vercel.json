@@ -1,6 +1,30 @@
 {
   "rewrites": [
     {
+      "source": "/reading-guides/partner-basis-opening-balance-workpaper",
+      "destination": "/reading-guides/partner-basis-opening-balance-workpaper/index.html"
+    },
+    {
+      "source": "/reading-guides/partner-k1-liability-share-change-reconciliation",
+      "destination": "/reading-guides/partner-k1-liability-share-change-reconciliation/index.html"
+    },
+    {
+      "source": "/reading-guides/partnership-basis-after-cash-contribution-records",
+      "destination": "/reading-guides/partnership-basis-after-cash-contribution-records/index.html"
+    },
+    {
+      "source": "/reading-guides/partnership-distribution-bank-to-k1-reconciliation",
+      "destination": "/reading-guides/partnership-distribution-bank-to-k1-reconciliation/index.html"
+    },
+    {
+      "source": "/reading-guides/partner-guaranteed-payment-year-end-cutoff",
+      "destination": "/reading-guides/partner-guaranteed-payment-year-end-cutoff/index.html"
+    },
+    {
+      "source": "/reading-guides/partner-guaranteed-payment-reimbursement-separation",
+      "destination": "/reading-guides/partner-guaranteed-payment-reimbursement-separation/index.html"
+    },
+    {
       "source": "/about",
       "destination": "/about.html"
     },
@@ -227,6 +251,66 @@
   "buildCommand": "node scripts/seo-production.cjs && python3 scripts/verify-faq-content.py dist",
   "outputDirectory": "dist",
   "redirects": [
+    {
+      "source": "/reading-guides/partner-basis-opening-balance-workpaper/",
+      "destination": "/reading-guides/partner-basis-opening-balance-workpaper",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-basis-opening-balance-workpaper/index.html",
+      "destination": "/reading-guides/partner-basis-opening-balance-workpaper",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-k1-liability-share-change-reconciliation/",
+      "destination": "/reading-guides/partner-k1-liability-share-change-reconciliation",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-k1-liability-share-change-reconciliation/index.html",
+      "destination": "/reading-guides/partner-k1-liability-share-change-reconciliation",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partnership-basis-after-cash-contribution-records/",
+      "destination": "/reading-guides/partnership-basis-after-cash-contribution-records",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partnership-basis-after-cash-contribution-records/index.html",
+      "destination": "/reading-guides/partnership-basis-after-cash-contribution-records",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partnership-distribution-bank-to-k1-reconciliation/",
+      "destination": "/reading-guides/partnership-distribution-bank-to-k1-reconciliation",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partnership-distribution-bank-to-k1-reconciliation/index.html",
+      "destination": "/reading-guides/partnership-distribution-bank-to-k1-reconciliation",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-guaranteed-payment-year-end-cutoff/",
+      "destination": "/reading-guides/partner-guaranteed-payment-year-end-cutoff",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-guaranteed-payment-year-end-cutoff/index.html",
+      "destination": "/reading-guides/partner-guaranteed-payment-year-end-cutoff",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-guaranteed-payment-reimbursement-separation/",
+      "destination": "/reading-guides/partner-guaranteed-payment-reimbursement-separation",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/partner-guaranteed-payment-reimbursement-separation/index.html",
+      "destination": "/reading-guides/partner-guaranteed-payment-reimbursement-separation",
+      "permanent": true
+    },
     {
       "source": "/blog/capital-accounts-implementation/",
       "destination": "/blog/capital-accounts-field-guide",
